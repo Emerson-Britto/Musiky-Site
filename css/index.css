@@ -1,0 +1,22 @@
+html {
+	background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+    background: black;
+}
+::-webkit-scrollbar-thumb {
+    background: #343434;
+}

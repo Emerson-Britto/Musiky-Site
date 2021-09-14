@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+    height: 8vh;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#header_branding {
+    position: relative;
+    bottom: 3px;
+    height: 110%;
+}
+
+.header_options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.options_li:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#featured_option {
+    background-color: #fff;
+    padding: 6px 14px;
+    border-radius: 8px;
+}
+
+#featured_option > a {
+    color: #000;
+}
