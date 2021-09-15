@@ -3,33 +3,33 @@
     flex-direction: column;
     justify-content: center;
     width: 100vw;
-    height: 620px;
+    height: 640px;
     background: url(../assets/img/simple-preview-desktop.png) no-repeat right/60%;
 }
 
 .getStarted {
     display: flex;
-    margin-left: 30px;
+    margin-left: 45px;
     flex-direction: column;
     justify-content: center;
     height: 50%;
 }
 
 .getStarted_title {
-    width: 45%;
+    width: 40%;
     font-weight: bold;
     margin-bottom: 15px;
-    font-size: 2.4em;
+    font-size: 2.6em;
 }
 
 .getStarted_details {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-bottom: 50px;
 }
 
 #getStarted_note {
     color: #9A9C9A;
-    font-size: 0.9em;
+    font-size: 1em;
     margin-bottom: 10px;
 }
 
@@ -37,7 +37,7 @@
     border: none;
     border-radius: 18px;
     padding: 6px 18px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     cursor: pointer;
     transition: 500ms;
 }

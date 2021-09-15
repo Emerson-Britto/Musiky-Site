@@ -24,6 +24,10 @@ header {
     width: 60%;
 }
 
+.options_li {
+    font-size: 1.1em;
+}
+
 .options_li:hover {
     border-bottom: 1px solid #fff;
 }

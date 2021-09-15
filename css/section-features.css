@@ -1,0 +1,24 @@
+.feature_conteiner {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100vw;
+	height: 600px;
+	/*background-color: rgb(255 255 255 / 6%);*/
+}
+
+.features_list {
+	width: 700px;
+}
+
+.features_card {
+	display: flex;
+	align-items: center;
+	width: 40%;
+	margin-bottom: 10px;
+}
+
+.features_icons {
+	width: 80px;
+	margin-right: 20px;
+}
