@@ -2,23 +2,27 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	width: 100vw;
 	height: 600px;
-	/*background-color: rgb(255 255 255 / 6%);*/
+	background: url(../assets/img/girl-listening-music-with-headphone.png) no-repeat left/38em;
+	background-position: 10% 30%;
 }
 
 .features_list {
-	width: 700px;
+	width: 550px;
 }
 
 .features_card {
 	display: flex;
 	align-items: center;
-	width: 40%;
+	width: 60%;
 	margin-bottom: 10px;
 }
 
 .features_icons {
-	width: 80px;
+	width: 70px;
 	margin-right: 20px;
+}
+
+.features_name {
+	font-size: 1.1em;
 }

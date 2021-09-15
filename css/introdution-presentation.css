@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100vw;
     height: 640px;
     background: url(../assets/img/simple-preview-desktop.png) no-repeat right/60%;
 }
