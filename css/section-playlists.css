@@ -1,0 +1,14 @@
+.section_playlists {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(../assets/img/playlist-left.png) no-repeat left/26em, url(../assets/img/playlist-right.png) no-repeat right/26em;
+	height: 450px;
+}
+
+.section_playlists > h2 {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
