@@ -11,6 +11,10 @@ header {
     width: 80%;
 }
 
+.Branding_hook {
+    width: 10%;
+}
+
 #header_branding {
     position: relative;
     bottom: 3px;
