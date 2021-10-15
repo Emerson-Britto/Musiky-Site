@@ -45,3 +45,29 @@ header {
 #featured_option > a {
     color: #000;
 }
+
+@media screen and (max-width: 1060px) {
+
+    .header_content {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .header_options {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .header_options {
+        display: none;
+    }
+
+}
