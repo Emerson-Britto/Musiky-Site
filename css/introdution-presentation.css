@@ -51,10 +51,11 @@
 @media screen and (max-width: 1100px) {
 
     .introdution_presentation {
-        background: url(../assets/img/simple-preview-desktop3-blur.png) no-repeat center/60%;
+        padding-top: 7vh;
+        background: url(../assets/img/simple-preview-desktop3-blur.png) no-repeat bottom/60%;
         justify-content: flex-start;
         align-items: center;
-        height: 780px;
+        height: 580px;
     }
 
     .getStarted {
@@ -80,7 +81,7 @@
     }
 
     .introdution_presentation {
-        background: url(../assets/img/previewMobile1.png) no-repeat center/86%;
+        background: url(../assets/img/previewMobile1.png) no-repeat center/66%;
     }
 
     .getStarted_title, .getStarted_details, .getStarted_note {
@@ -91,6 +92,6 @@
 @media screen and (max-width: 500px) {
 
     .introdution_presentation {
-        background: url(../assets/img/previewMobile1.png) no-repeat center/100%;
+        background: url(../assets/img/previewMobile1.png) no-repeat center/80%;
     }
 }

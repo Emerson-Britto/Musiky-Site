@@ -2,11 +2,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 620px;
+	height: auto;
 }
 
 .plans_list {
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 70px 0;
 }
 
 .plans_card {
@@ -18,6 +21,7 @@
 	border-image: linear-gradient(180deg, #000, #4000AE, #000)1;
 	width: 300px;
 	height: 310px;
+	margin:  40px 0;
 }
 
 .plan_infor {
@@ -69,4 +73,19 @@
 
 #btn_getPlan:hover {
 	background-color: #1D0072;
+}
+
+@media screen and (max-width: 600px) {
+
+	.features_list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.features_card {
+		width: 70%;
+	}
+
 }

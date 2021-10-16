@@ -8,7 +8,7 @@
 }
 
 .features_list {
-	width: 550px;
+	width: 40%;
 }
 
 .features_card {
@@ -25,4 +25,46 @@
 
 .features_name {
 	font-size: 1.1em;
+}
+
+@media screen and (max-width: 1085px) {
+
+	.feature_conteiner {
+		background: url(../assets/img/girl-listening-music-with-headphone.png) no-repeat left/34em;
+		background-position: 10% 30%;
+	}
+
+	.features_list {
+		width: 40%;
+	}
+
+}
+
+@media screen and (max-width: 950px) {
+
+	.feature_conteiner {
+		justify-content: center;
+		background: transparent;
+		height: 500px;
+	}
+
+	.features_card {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.features_list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.features_card {
+		width: 70%;
+	}
+
 }

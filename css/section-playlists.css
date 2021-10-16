@@ -3,12 +3,47 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: url(../assets/img/playlist-left.png) no-repeat left/26em, url(../assets/img/playlist-right.png) no-repeat right/26em;
+	background: url(../assets/img/playlist-left.png) no-repeat left/24em, url(../assets/img/playlist-right.png) no-repeat right/24em;
 	height: 450px;
 }
 
 .section_playlists > h2 {
+	text-align: center;
 	font-weight: bold;
 	font-size: 2em;
+	background-color: rgb(0 0 0 / 50%);
+	box-shadow: 0px 0px 20px #000;
 	margin-bottom: 10px;
+	margin: 10px 20px;
+}
+
+.section_playlists > p {
+	background-color: rgb(0 0 0 / 50%);
+	box-shadow: 0px 0px 20px #000;
+	margin: 5px 20px;
+}
+
+@media screen and (max-width: 1050px) {
+
+	.section_playlists {
+		background: url(../assets/img/playlist-left.png) no-repeat left/20em, url(../assets/img/playlist-right.png) no-repeat right/20em;
+		height: 400px;
+	}
+
+}
+
+@media screen and (max-width: 830px) {
+
+	.section_playlists {
+		background: url(../assets/img/playlist-left.png) no-repeat left top/18em, url(../assets/img/playlist-right.png) no-repeat right bottom/18em;
+	}
+
+}
+
+@media screen and (max-width: 680px) {
+
+	.section_playlists {
+		background: url(../assets/img/dot-seamless-pattern.png) center/18em;
+	}
+
 }

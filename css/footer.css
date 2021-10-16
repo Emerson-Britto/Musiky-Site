@@ -4,13 +4,18 @@
 	justify-content: space-between;
 	background-color: #07050A;
 	border-top: 30px solid #070507;
-	height: 500px;
+	height: auto;
 }
 
 .footer_links {
 	padding-top: 80px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+.footer_groupList {
+	margin: 15px 25px;
 }
 
 .footer_titleList {
@@ -28,17 +33,15 @@
 }
 
 .footer_otherLinks-end {
+	margin-top: 40px;
 	display: flex;
-}
-
-.centerContent {
-	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 #footer_branding {
-	width: 10em;
+	width: 100%;
 }
 
 .div_socielLinks {
@@ -47,11 +50,18 @@
 }
 
 .div_branding {
-	width: 33.33%;
-	height: 15vh;
+	width: 8em;
 }
 
 .div_languagem {
+	text-align: center;
 	width: 33.33%;
-	height: 15vh;
+}
+
+@media screen and (max-width: 780px) {
+
+    .header_options {
+        display: none;
+    }
+
 }
