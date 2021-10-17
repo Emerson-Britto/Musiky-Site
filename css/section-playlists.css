@@ -46,4 +46,12 @@
 		background: url(../assets/img/dot-seamless-pattern.png) center/18em;
 	}
 
+	.section_playlists > h2 {
+		background-color: rgb(0 0 0 / 80%);
+	}
+
+	.section_playlists > p {
+		background-color: rgb(0 0 0 / 80%);
+	}
+
 }
